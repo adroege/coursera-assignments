@@ -1,0 +1,52 @@
+/* apply everywhere */
+* {
+    box-sizing: border-box;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #ffeeee;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    color: #cc3333;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-list {
+    font-size: 1.2em;
+}
+#nav-list a {
+    color: #cc3333;
+}
+#nav-list a:hover {
+    background-color: #ffcccc;
+}
+
+.navbar-header button.navbar-toggle {
+    margin-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    background-color: #ffeeee;
+    border: 1px solid #cc3333;
+}
+/* END HEADER */
+
+.content-box {
+    background-color: #eeffee;
+    padding: 5px 15px 15px 15px;
+    margin: 10px 0px 10px 0px;
+}
